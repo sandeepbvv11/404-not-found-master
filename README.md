@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://404-not-found-ivory.vercel.app/">
       Solution
     </a>
     <span> | </span>
@@ -26,11 +26,12 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
