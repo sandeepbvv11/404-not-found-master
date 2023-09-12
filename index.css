@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+/* Top navbar heading start*/
+.navbar{
+   width: max-content; 
+   display: flex;
+   flex-direction: row;
+}
+.navbar-container{
+    height: 25px;
+    width: fit-content;
+    padding-left: 77px;
+    padding-top: 40px;
+}
+.navbar-title{
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+/* Middle scarecrow  start*/
+.middle-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    height: fit-content;
+    width: max-content;
+}
+.middle-container-right,.middle-container-left{
+    height: fit-content;
+    width: max-content;
+}
+.middle-container-left{
+    padding-left: 77px;
+}
+.middle-container-left-img{
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+    padding-right: 119.78px;
+}
+.middle-container-right{
+    padding-right: 119px;
+    
+}
+.middle-container-right-text{
+    
+    color: var(--Gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -2.24px;
+    
+    width: 586px;
+    height: 190px;
+}
+.middle-container-right-middle-text{
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    width:381px;
+    height:108px;
+}
+.middle-container-right-button{
+    background: var(--Gray-1, #333);
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+}
+.footer {
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.content-wrapper {
+    flex: 1; /* Fill available vertical space */
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-container {
+    flex: 1; /* Fill available vertical space */
+}
+/* Add a media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px; /* Add some spacing to the body */
+    }
+
+    .navbar-container {
+        padding-left: 20px; /* Adjust padding for the navbar container */
+        padding-top: 20px;
+    }
+
+    .middle-container {
+        flex-direction: column; /* Stack elements vertically for smaller screens */
+        align-items: center; /* Center content */
+        padding-top: 40px;
+    }
+
+    .middle-container-left {
+        padding: 0; /* Remove left padding */
+    }
+
+    .middle-container-left-img {
+        width: 100%; /* Make the image responsive, occupying the full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 20px; /* Add spacing between image and text */
+    }
+
+    .middle-container-right {
+        padding-right: 20px; /* Adjust right padding */
+        text-align: center; /* Center text */
+    }
+
+    .middle-container-right-text {
+        font-size: 36px; /* Reduce font size for smaller screens */
+    }
+
+    .middle-container-right-middle-text {
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+
+    .middle-container-right-button-container {
+        margin-top: 20px; /* Add spacing above the button */
+    }
+
+    .middle-container-right-button {
+        width: 100%; /* Make the button full width */
+    }
+
+    /* You can adjust other styles as needed for mobile compatibility */
+}
+
+/* End of media query */
